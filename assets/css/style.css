@@ -86,16 +86,12 @@ aside {
     background-color: #2589bd;
 }
 
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
