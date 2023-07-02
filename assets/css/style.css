@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Changed from class to semantic element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +25,7 @@ h1 {
     color: #d9dcd6;
 }
 
+/* Changed to nav element */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,6 +48,7 @@ a {
     text-decoration: none;
 }
 
+/* Changed from class to id since it's a singular element */
 #hero {
     height: 800px;
     width: 100%;
@@ -55,12 +58,14 @@ a {
     background-position: center;
 }
 
+/* Changed to semantic element */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Changed to article semantic element since each is larger  */
 article {
     margin-bottom: 20px;
     padding: 50px;
@@ -70,6 +75,7 @@ article {
     color: #ffffff;
 }
 
+/* Changed next 2 to match article parent element */
 article img {
     max-height: 200px;
 }
@@ -93,6 +99,7 @@ p {
     margin-left: 25px;
 }
 
+/* Changed to aside semantic element */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -104,17 +111,20 @@ aside {
     background-color: #2589bd;
 }
 
+/* Changed to section semantic element since smaller explanations */
 section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Changed to match section parent element */
 section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* h3s only exist in the aside section */
 h3 {
     margin-bottom: 10px;
     text-align: center;
